@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject>
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="org.eclipse.cdt.core.default.config.1">
+			<storageModule buildSystemId="org.eclipse.cdt.core.defaultConfigDataProvider" id="org.eclipse.cdt.core.default.config.1" moduleId="org.eclipse.cdt.core.settings" name="Configuration">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.language.mapping">
+				<project-mappings/>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="Project.null.1" name="Project"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets">
+		<buildTargets>
+			<target name=": edit_cache" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/bin/gmake</buildCommand>
+				<buildArguments>-j8</buildArguments>
+				<buildTarget>edit_cache</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+			</target>
+			<target name=": rebuild_cache" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/bin/gmake</buildCommand>
+				<buildArguments>-j8</buildArguments>
+				<buildTarget>rebuild_cache</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+			</target>
+			<target name="[exe] server" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/bin/gmake</buildCommand>
+				<buildArguments>-j8</buildArguments>
+				<buildTarget>server</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+			</target>
+			<target name="[exe] server/fast" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/bin/gmake</buildCommand>
+				<buildArguments>-j8</buildArguments>
+				<buildTarget>server/fast</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+			</target>
+			<target name="Build" path="[Targets]/[exe] server" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/bin/gmake</buildCommand>
+				<buildArguments>-C "/export/tmp/4205_13/projet/sceance5/server" -j8</buildArguments>
+				<buildTarget>server</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+			</target>
+			<target name="Clean" path="[Targets]/[exe] server" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/export/tmp/4205_13/opt/poky/sysroots/x86_64-pokysdk-linux/usr/bin/cmake</buildCommand>
+				<buildArguments>-E chdir "/export/tmp/4205_13/projet/sceance5/server" "/export/tmp/4205_13/opt/poky/sysroots/x86_64-pokysdk-linux/usr/bin/cmake" -P "CMakeFiles/server.dir/cmake_clean.cmake"</buildArguments>
+				<buildTarget/>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+			</target>
+			<target name=": all" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/bin/gmake</buildCommand>
+				<buildArguments>-j8</buildArguments>
+				<buildTarget>all</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+			</target>
+			<target name=": clean" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/bin/gmake</buildCommand>
+				<buildArguments>-j8</buildArguments>
+				<buildTarget>clean</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+			</target>
+			<target name="[obj] server.cpp.o" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+				<buildCommand>/bin/gmake</buildCommand>
+				<buildArguments>-j8</buildArguments>
+				<buildTarget>server.cpp.o</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+			</target>
+		</buildTargets>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile"/>
+		<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile">
+			<buildOutputProvider>
+				<openAction enabled="true" filePath=""/>
+				<parser enabled="true"/>
+			</buildOutputProvider>
+			<scannerInfoProvider id="specsFile">
+				<runAction arguments="  --sysroot=/export/tmp/4205_13/opt/poky/sysroots/aarch64-poky-linux -E -P -v -dD ${plugin_state_location}/${specs_file}" command="/export/tmp/4205_13/opt/poky/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc" useDefault="true"/>
+				<parser enabled="true"/>
+			</scannerInfoProvider>
+		</profile>
+		<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile">
+			<buildOutputProvider>
+				<openAction enabled="true" filePath=""/>
+				<parser enabled="true"/>
+			</buildOutputProvider>
+			<scannerInfoProvider id="makefileGenerator">
+				<runAction arguments="-f ${project_name}_scd.mk" command="/bin/gmake" useDefault="true"/>
+				<parser enabled="true"/>
+			</scannerInfoProvider>
+		</profile>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.pathentry">
+		<pathentry include="/export/tmp/4205_13/poky/build-oc2/tmp/sysroots/odroid-c2/usr/include/opencv" kind="inc" path="" system="true"/>
+		<pathentry include="/export/tmp/4205_13/poky/build-oc2/tmp/sysroots/odroid-c2/usr/include" kind="inc" path="" system="true"/>
+		<pathentry excluding="**/CMakeFiles/" kind="out" path=""/>
+		<pathentry kind="src" path=""/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+</cproject>
