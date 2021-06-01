@@ -30,7 +30,7 @@ dans le .cpp. Ensuite, vous n'avez qu'a lancer un cmake/make et vous obtiendrez 
 
 ## Auteur
 
-* **Jean-Romain Roy** - *Initial work* - [jundyawa](https://github.com/jundyawa)
+* **Jean-Romain Roy** - *Initial work* - [jeanromainroy](https://github.com/jeanromainroy)
 
 
 ## Remerciement
